@@ -19,7 +19,7 @@ function takeDamage() {
         statusText.style.color = "#f9331d";
         statusText.style.fontWeight = "bold";
         
-        document.body.style.backgroundcolor = "#610a00";
+        document.body.style.backgroundColor = "#610a00";
 
         document.querySelector("button").disabled = true;
         document.querySelector("button").innerText = "Dead";
