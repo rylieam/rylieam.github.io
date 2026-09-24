@@ -12,3 +12,20 @@ table {
     border-collapse: collapse;
     border: 2px solid slategray;
 }
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslategray;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: darkslategray;
+    border: 2px solid darkslategray;
+}
