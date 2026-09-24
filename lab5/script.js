@@ -35,10 +35,10 @@ function deposit() {
 
         healthText.innerText = > 0;
         statusText.innerText = "You're on your way to becoming a millionaire!";
-        statusText.style.color = "#ffffff";
+        statusText.style.color = "#008b8b";
         statusText.style.fontWeight = "bold";
         
-        document.body.style.backgroundColor = "#008b8b";
+        document.body.style.backgroundColor = "#ffffff";
 
         document.querySelector("button").disabled = false;
         document.querySelector("button").innerText = "Deposit";
