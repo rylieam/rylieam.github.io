@@ -41,7 +41,7 @@ function deposit() {
         document.body.style.backgroundColor = "#008b8b";
 
         document.querySelector("button").disabled = false;
-        document.querySelector("button").innerText = "Deposit";
+        document.querySelector("button").innerText = "Withdraw $20";
 
     if(money > 0)
     {
