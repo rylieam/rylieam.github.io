@@ -3,7 +3,7 @@ const withdrawAmount = 20;
 const depositAmount = 20;
 
 function withdraw() {
-    money = money - withdrawAmount;
+    money = money + depositAmount - withdrawAmount;
 
     const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
@@ -28,7 +28,7 @@ function withdraw() {
     }
 }
 function deposit() {
-    money = money + depositAmount;
+    money = money + depositAmount - withdrawAmount;
 
     const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
@@ -48,7 +48,7 @@ function deposit() {
         document.body.style.backgroundColor = "#610a00";
 
         document.querySelector("button").disabled = true;
-        document.querySelector("button").innerText = "Start Over?";
+        document.querySelector("button").innerText = "Bankrupt";
 
     }
 }
