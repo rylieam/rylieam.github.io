@@ -37,6 +37,16 @@ function deposit() {
     {
         healthText.innerText = money;
         statusText.innerText = "You're on your way to becoming a millionaire!";
+
+        healthText.innerText 20 > 0;
+        statusText.innerText = "You're not broke yet!";
+        statusText.style.color = "#ffffff";
+        statusText.style.fontWeight = "bold";
+        
+        document.body.style.backgroundColor = "#008b8b";
+
+        document.querySelector("button").disabled = true;
+        document.querySelector("button").innerText = "Bankrupt";
     }
     else
     {
