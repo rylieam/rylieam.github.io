@@ -33,7 +33,7 @@ function deposit() {
     const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
 
-        healthText.innerText = > 0;
+        healthText.innerText = "> 0";
         statusText.innerText = "You're on your way to becoming a millionaire!";
         statusText.style.color = "#ffffff";
         statusText.style.fontWeight = "bold";
