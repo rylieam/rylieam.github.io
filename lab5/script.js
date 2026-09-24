@@ -33,20 +33,19 @@ function deposit() {
     const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
 
-    if(money >= 20)
+    if(money > 0)
     {
         healthText.innerText = money;
         statusText.innerText = "You're on your way to becoming a millionaire!";
-
     }
     else
     {
-       healthText.innerText 20 > 0;
-        statusText.innerText = "You're not broke yet!";
-        statusText.style.color = "#ffffff";
+        healthText.innerText = 0;
+        statusText.innerText = "You went bankrupt!";
+        statusText.style.color = "#f9331d";
         statusText.style.fontWeight = "bold";
         
-        document.body.style.backgroundColor = "#008b8b";
+        document.body.style.backgroundColor = "#610a00";
 
         document.querySelector("button").disabled = true;
         document.querySelector("button").innerText = "Bankrupt";
