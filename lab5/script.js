@@ -48,7 +48,7 @@ function deposit() {
         document.body.style.backgroundColor = "#610a00";
 
         document.querySelector("button").disabled = true;
-        document.querySelector("button").innerText = "Bankrupt";
+        document.querySelector("button").innerText = "Start Over?";
 
     }
 }
