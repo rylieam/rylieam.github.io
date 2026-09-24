@@ -3,7 +3,7 @@ const withdrawAmount = 20;
 const depositAmount = 20;
 
 function withdraw() {
-    money = money + depositAmount - withdrawAmount;
+    money = money - withdrawAmount;
 
     const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
@@ -28,7 +28,7 @@ function withdraw() {
     }
 }
 function deposit() {
-    money = money + depositAmount - withdrawAmount;
+    money = money + depositAmount;
 
     const healthText = document.getElementById("money-display");
     const statusText = document.getElementById("status-message");
