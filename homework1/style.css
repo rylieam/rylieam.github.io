@@ -6,6 +6,9 @@ body {
 h1 {
     text-align: center;
 }
+#info {
+    text-align: center;
+}
 table {
     width: 100%;
     max-width: 90%
