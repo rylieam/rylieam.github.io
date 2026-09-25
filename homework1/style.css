@@ -22,7 +22,7 @@ button {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     background-color: darkslategray;
-    color: antiquewhite;
+    color: rgb(255, 247, 237);
     border: none;
     border-radius: 5px;
     cursor: pointer;
