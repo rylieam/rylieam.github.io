@@ -2,7 +2,7 @@ body {
     background-color:antiquewhite;
     font-family: arial, sans-serif;
     margin: 40px;
-    color:gray;
+    color:black;
 }
 h1 {
     background-color:midnightblue;
@@ -24,7 +24,7 @@ th, td {
     text-align: left;
 }
 th {
-    background-color:black;
+    background-color:gray;
 }
 a {
     color: skyblue;
