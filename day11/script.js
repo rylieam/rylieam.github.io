@@ -25,3 +25,9 @@ function countdown()
     timeLeft--;
     timeDisplay.innerText = timeLeft;
 }
+
+fuction hitTarget()
+{
+    score++;
+    scoreDisplay.innerText = score;
+}
