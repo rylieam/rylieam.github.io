@@ -19,7 +19,6 @@ function triggerBug2() {
 function triggerBug3() {
     let outputText = document.getElementById("output3"); 
     outputText.innerText = "Code Fixed!";
-    
     let btn = document.getElementById("btn3");
     btn.innerText = "Done";
     btn.disabled = true;
