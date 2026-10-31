@@ -3,9 +3,11 @@ let linesOfCode = 0;
 
 let clickPower = 1;
 let upgradeCost = 50;
+let mouseCost = 200;
 
 let interns = 0;
 let internCost = 100;
+let managerCost = 250;
 
 function writeCode() 
 {
@@ -24,6 +26,17 @@ function buyKeyboard()
     }
 }
 
+function buyMouse()
+{
+    if(linesOfCode >= mouseCost)
+    {
+        linesOfCode = linesOfCode - mouseCost;
+        clickPower = clickPower + 5;
+        mouseCost = Math.ceil(mouseCost * 1.5);
+        updateScreen();
+    }
+}
+
 function buyIntern()
 {
     if(linesOfCode >= internCost)
@@ -35,15 +48,28 @@ function buyIntern()
     }
 }
 
+function buyManager()
+{
+    if(linesOfCode >= managerCost)
+    {
+        linesOfCode = linesOfCode - managerCost;
+        internPower = internPower + 1;
+        managerCost = Math.ceil(managerCost * 1.5);
+        updateScreen();
+    }
+}
+
 function updateScreen()
 {
     document.getElementById("score-display").innerText = linesOfCode + " lines of code";
 
     document.getElementById("power-display").innerText = clickPower;
     document.getElementById("cost-display").innerText = upgradeCost;
+    document.getElementById("cost-mouse-display").innerText = mouseCost;
 
     document.getElementById("intern-display").innerText = interns;
-    document.getElementById("intern-display-cost").innerText = internCost;
+    document.getElementById("cost-intern-display").innerText = internCost;
+    document.getElementById("cost-manager-display").innerText = managerCost;
 }
 
 setInterval(function() {
