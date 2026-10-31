@@ -1,13 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkcyan;
+    background-color:aliceblue;
     color: white;
     text-align: center;
     margin-top: 40px;
 }
 
 #game-container {
-    background-color:cornflowerblue;
+    background-color:lightsteelblue;
     max-width: 450px;
     margin: 0 auto;
     padding: 30px;
@@ -19,7 +19,7 @@ body {
     font-size: 24px;
     padding: 20px, 40px;
     margin: 20px 0;
-    background-color:lightblue;
+    background-color:steelblue;
     color: white;
     border: none;
     border-radius: 8px;
