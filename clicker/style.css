@@ -7,7 +7,7 @@ body {
 }
 
 #game-container {
-    background-color: darkslategray;
+    background-color:cornflowerblue;
     max-width: 450px;
     margin: 0 auto;
     padding: 30px;
@@ -19,7 +19,7 @@ body {
     font-size: 24px;
     padding: 20px, 40px;
     margin: 20px 0;
-    background-color: teal;
+    background-color:lightblue;
     color: white;
     border: none;
     border-radius: 8px;
@@ -28,7 +28,7 @@ body {
 
 #shop {
     margin-top: 30px;
-    background-color: dimgray;
+    background-color:steelblue;
     padding: 20px;
     border-radius: 8px;
 }
