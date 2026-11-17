@@ -1,0 +1,18 @@
+.entry-card {
+  background: #fff;
+  border-left: 4px solid var(--primary);
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  margin-bottom: 15px;
+}
+.entry-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.entry-text {
+  color: #333;
+  line-height: 1.5;
+}
