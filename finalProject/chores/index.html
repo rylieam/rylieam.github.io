@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chore Chart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chores.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="index.html" class="back-btn">&larr;</a>
+      <h1>Chore Chart</h1>
+      <div>
+        <button id="add-chore-btn">+ Add Chore</button>
+        <button id="reset-btn" style="background:#e74c3c;">Reset</button>
+      </div>
+    </header>
+    <table id="chore-table">
+      <thead>
+        <tr>
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      </thead>
+      <tbody id="chore-tbody">
+        <!-- Filled dynamically -->
+      </tbody>
+    </table>
+  </div>
+  <script src="chores.js"></script>
+</body>
+</html>
