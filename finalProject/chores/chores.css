@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  text-align: center;
+  vertical-align: top;
+  width: 14.28%;
+}
+th {
+  background: #f1f5f9;
+  color: #334155;
+}
+.chore-item {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chore-item button {
+  background: none;
+  color: #e74c3c;
+  padding: 0 4px;
+  font-size: 0.9rem;
+}
