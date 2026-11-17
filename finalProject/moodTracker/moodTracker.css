@@ -1,0 +1,42 @@
+.legend {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.box {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 3px;
+}
+.happy { background: #f1c40f; }
+.sad { background: #3498db; }
+.mad { background: #e74c3c; }
+.anxious { background: #9b59b6; }
+.stressed { background: #e67e22; }
+.sick { background: #2ecc71; }
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+.cal-day {
+  border: 1px solid var(--border-color);
+  min-height: 80px;
+  padding: 8px;
+  border-radius: 4px;
+  background: #fff;
+}
+.cal-day .day-num {
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
