@@ -1,0 +1,19 @@
+.shelf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.book-card {
+  border: 2px solid var(--primary);
+  background: #f0f7ff;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #1e3a8a;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
