@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     coverCard.classList.add("opening");
     
     setTimeout(() => {
-      window.location.href = "menu.html";
+      window.location.href = "navigationPage/";
     }, 350);
   });
 });
