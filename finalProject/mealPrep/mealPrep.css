@@ -1,0 +1,27 @@
+#instruction-tip {
+  font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+.meals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.meal-card {
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.meal-card h3 {
+  color: #27ae60;
+  margin-bottom: 8px;
+}
+.meal-ingredients {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 0.95rem;
+  color: #444;
+}
